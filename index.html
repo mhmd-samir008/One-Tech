@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="OneTech — an online store for smartphones, laptops, headphones and other tech products.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -20,8 +24,8 @@
 <body>
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-            <div class="nab-con d-flex align-items-center">
-                <i class="fa-solid fa-bars"></i>
+            <div class="nab-con d-flex align-items-center gap-2">
+                <i class="fa-solid fa-bars" aria-hidden="true"></i>
                 <a class="navbar-brand dropdown-toggle text-white text-uppercase fw-bold" href="#" role="button"
                     data-bs-toggle="dropdown" aria-expanded="false">
                     Categories</a>
@@ -37,7 +41,7 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-bars" aria-hidden="true"></i>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0">
@@ -82,8 +86,7 @@
                 <span class="text-decoration-line-through fw-bold fs-5">$530</span>
                 <span class="text-danger fw-bolder fs-5 px-3">$460</span>
                 <strong class="d-block pb-3 pt-1">Apple Iphone 6s</strong>
-                <button type="button" class="btn btn-info"><a href="#"
-                        class="text-decoration-none text-white fw-bold">Shop Now</a></button>
+                <a href="#" class="btn btn-info text-decoration-none text-white fw-bold">Shop Now</a>
             </div>
             <div class="col-md-6">
                 <img src="imgs/imgi_3_xbanner_product.png.pagespeed.ic.8YoeI51pih.webp" class="w-100" alt="">
@@ -144,31 +147,31 @@
                     <div class="my-4">
                         <h3>Deals of the Week</h3>
                     </div>
-                    <div id="carouselExampleIndicators" class="carousel slide">
+                    <div id="dealsCarousel" class="carousel slide carousel-fade">
                         <div class="carousel-inner">
                             <!-- Slide 1 -->
-                            <div class="carousel-item active p-3 m-0">
+                            <div class="carousel-item active p-3">
                                 <img src="imgs/imgi_8_xdeals.png.pagespeed.ic.nmhfwwkKMA.webp" class="d-block w-100"
-                                    alt="...">
+                                    alt="Beoplay H7 headphones">
                                 <div class="d-flex justify-content-between">
                                     <small>Headphone</small>
                                     <small>$300</small>
                                 </div>
                                 <div class="d-flex justify-content-between my-2">
-                                    <span>
+                                    <div>
                                         <h5>Beoplay H7</h5>
-                                    </span>
-                                    <span>
+                                    </div>
+                                    <div>
                                         <h5 class="text-danger">$225</h5>
-                                    </span>
+                                    </div>
                                 </div>
                                 <div class="d-flex justify-content-between my-1">
                                     <small>Available: 6</small>
                                     <small>Already Sold: 28</small>
                                 </div>
-                                <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25"
+                                <div class="progress" role="progressbar" aria-label="Share of stock sold" aria-valuenow="82"
                                     aria-valuemin="0" aria-valuemax="100">
-                                    <div class="progress-bar" style="width: 25%"></div>
+                                    <div class="progress-bar" style="width: 82%"></div>
                                 </div>
                                 <div class="row my-2">
                                     <div class="col-5">
@@ -176,34 +179,34 @@
                                         <small>Offer Ends Soon</small>
                                     </div>
                                     <div class="col-7 text-center">
-                                        This product is not available now
+                                        Only 6 left in stock
                                     </div>
                                 </div>
                             </div>
 
                             <!-- Slide 2 -->
-                            <div class="carousel-item p-3 m-0">
-                                <img src="imgs/imgi_8_xdeals.png.pagespeed.ic.nmhfwwkKMA.webp" class="d-block w-100"
-                                    alt="...">
+                            <div class="carousel-item p-3">
+                                <img src="imgs/black-wireless-headphones-isolated-on-transparent-background-free-png.webp" class="d-block w-100"
+                                    alt="Beoplay H7 headphones">
                                 <div class="d-flex justify-content-between">
                                     <small>Headphone</small>
-                                    <small>$300</small>
+                                    <small>$150</small>
                                 </div>
                                 <div class="d-flex justify-content-between my-2">
-                                    <span>
-                                        <h5>Beoplay H7</h5>
-                                    </span>
-                                    <span>
-                                        <h5 class="text-danger">$225</h5>
-                                    </span>
+                                    <div>
+                                        <h5>Otteto OT11</h5>
+                                    </div>
+                                    <div>
+                                        <h5 class="text-danger">$100</h5>
+                                    </div>
                                 </div>
                                 <div class="d-flex justify-content-between my-1">
-                                    <small>Available: 6</small>
-                                    <small>Already Sold: 28</small>
+                                    <small>Available: 1</small>
+                                    <small>Already Sold: 29</small>
                                 </div>
-                                <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25"
+                                <div class="progress" role="progressbar" aria-label="Share of stock sold" aria-valuenow="96"
                                     aria-valuemin="0" aria-valuemax="100">
-                                    <div class="progress-bar" style="width: 25%"></div>
+                                    <div class="progress-bar" style="width: 82%"></div>
                                 </div>
                                 <div class="row my-2">
                                     <div class="col-5">
@@ -211,34 +214,34 @@
                                         <small>Offer Ends Soon</small>
                                     </div>
                                     <div class="col-7 text-center">
-                                        This product is not available now
+                                        Only 1 left in stock
                                     </div>
                                 </div>
                             </div>
 
                             <!-- Slide 3 -->
-                            <div class="carousel-item p-3 m-0">
-                                <img src="imgs/imgi_8_xdeals.png.pagespeed.ic.nmhfwwkKMA.webp" class="d-block w-100"
-                                    alt="...">
+                            <div class="carousel-item p-3">
+                                <img src="imgs/wireless-headphones-and-music-gear-isolated-transparent-background-free-png.webp" class="d-block w-100"
+                                    alt="Beoplay H7 headphones">
                                 <div class="d-flex justify-content-between">
                                     <small>Headphone</small>
-                                    <small>$300</small>
+                                    <small>$450</small>
                                 </div>
                                 <div class="d-flex justify-content-between my-2">
-                                    <span>
-                                        <h5>Beoplay H7</h5>
-                                    </span>
-                                    <span>
-                                        <h5 class="text-danger">$225</h5>
-                                    </span>
+                                    <div>
+                                        <h5>WH-CH520</h5>
+                                    </div>
+                                    <div>
+                                        <h5 class="text-danger">$300</h5>
+                                    </div>
                                 </div>
                                 <div class="d-flex justify-content-between my-1">
-                                    <small>Available: 6</small>
-                                    <small>Already Sold: 28</small>
+                                    <small>Available: 5</small>
+                                    <small>Already Sold: 35</small>
                                 </div>
-                                <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25"
+                                <div class="progress" role="progressbar" aria-label="Share of stock sold" aria-valuenow="87"
                                     aria-valuemin="0" aria-valuemax="100">
-                                    <div class="progress-bar" style="width: 25%"></div>
+                                    <div class="progress-bar" style="width: 82%"></div>
                                 </div>
                                 <div class="row my-2">
                                     <div class="col-5">
@@ -246,17 +249,17 @@
                                         <small>Offer Ends Soon</small>
                                     </div>
                                     <div class="col-7 text-center">
-                                        This product is not available now
+                                        Only 5 left in stock
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        <button class="carousel-control-prev" type="button" data-bs-target="#dealsCarousel"
                             data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        <button class="carousel-control-next" type="button" data-bs-target="#dealsCarousel"
                             data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
@@ -284,7 +287,7 @@
                                         <span>Smartphone</span>
                                         <h6 class="card-title">Huawei MediaPad</h6>
                                     </div>
-                                    <button type="button" class="btn btn-primary"><a href="#">Add Cart</a></button>
+                                    <a href="#" class="btn btn-primary">Add Cart</a>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 col-md-3">
@@ -296,7 +299,7 @@
                                         <span>Headphone</span>
                                         <h6 class="card-title">Sony MDRZX310W</h6>
                                     </div>
-                                    <button type="button" class="btn btn-primary"><a href="#">Add Cart</a></button>
+                                    <a href="#" class="btn btn-primary">Add Cart</a>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 col-md-3">
@@ -308,7 +311,7 @@
                                         <span>Smartphone</span>
                                         <h6 class="card-title">Samsung J330F</h6>
                                     </div>
-                                    <button type="button" class="btn btn-primary"><a href="#">Add Cart</a></button>
+                                    <a href="#" class="btn btn-primary">Add Cart</a>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 col-md-3">
@@ -320,7 +323,7 @@
                                         <span>Headphone</span>
                                         <h6 class="card-title">Beoplay</h6>
                                     </div>
-                                    <button type="button" class="btn btn-primary"><a href="#">Add Cart</a></button>
+                                    <a href="#" class="btn btn-primary">Add Cart</a>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 col-md-3">
@@ -332,7 +335,7 @@
                                         <span>Ipod</span>
                                         <h6 class="card-title">Transcend T.Sonic</h6>
                                     </div>
-                                    <button type="button" class="btn btn-primary"><a href="#">Add Cart</a></button>
+                                    <a href="#" class="btn btn-primary">Add Cart</a>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 col-md-3">
@@ -344,7 +347,7 @@
                                         <span>Mouse</span>
                                         <h6 class="card-title">Rapoo T8 White</h6>
                                     </div>
-                                    <button type="button" class="btn btn-primary"><a href="#">Add Cart</a></button>
+                                    <a href="#" class="btn btn-primary">Add Cart</a>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 col-md-3">
@@ -356,7 +359,7 @@
                                         <span>Camera</span>
                                         <h6 class="card-title">Canon EF</h6>
                                     </div>
-                                    <button type="button" class="btn btn-primary"><a href="#">Add Cart</a></button>
+                                    <a href="#" class="btn btn-primary">Add Cart</a>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 col-md-3">
@@ -368,7 +371,7 @@
                                         <span>Smartphone</span>
                                         <h6 class="card-title">LUNA</h6>
                                     </div>
-                                    <button type="button" class="btn btn-primary"><a href="#">Add Cart</a></button>
+                                    <a href="#" class="btn btn-primary">Add Cart</a>
                                 </div>
                             </div>
                         </div>
@@ -386,7 +389,7 @@
                                         <span>Smartphone</span>
                                         <h6 class="card-title">Huawei MediaPad</h6>
                                     </div>
-                                    <button type="button" class="btn btn-primary"><a href="#">Add Cart</a></button>
+                                    <a href="#" class="btn btn-primary">Add Cart</a>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 col-md-3">
@@ -398,7 +401,7 @@
                                         <span>Headphone</span>
                                         <h6 class="card-title">Sony MDRZX310W</h6>
                                     </div>
-                                    <button type="button" class="btn btn-primary"><a href="#">Add Cart</a></button>
+                                    <a href="#" class="btn btn-primary">Add Cart</a>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 col-md-3">
@@ -410,7 +413,7 @@
                                         <span>Smartphone</span>
                                         <h6 class="card-title">Samsung J330F</h6>
                                     </div>
-                                    <button type="button" class="btn btn-primary"><a href="#">Add Cart</a></button>
+                                    <a href="#" class="btn btn-primary">Add Cart</a>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 col-md-3">
@@ -422,7 +425,7 @@
                                         <span>Headphone</span>
                                         <h6 class="card-title">Beoplay</h6>
                                     </div>
-                                    <button type="button" class="btn btn-primary"><a href="#">Add Cart</a></button>
+                                    <a href="#" class="btn btn-primary">Add Cart</a>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 col-md-3">
@@ -434,7 +437,7 @@
                                         <span>Ipod</span>
                                         <h6 class="card-title">Transcend T.Sonic</h6>
                                     </div>
-                                    <button type="button" class="btn btn-primary"><a href="#">Add Cart</a></button>
+                                    <a href="#" class="btn btn-primary">Add Cart</a>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 col-md-3">
@@ -446,7 +449,7 @@
                                         <span>Mouse</span>
                                         <h6 class="card-title">Rapoo T8 White</h6>
                                     </div>
-                                    <button type="button" class="btn btn-primary"><a href="#">Add Cart</a></button>
+                                    <a href="#" class="btn btn-primary">Add Cart</a>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 col-md-3">
@@ -458,7 +461,7 @@
                                         <span>Camera</span>
                                         <h6 class="card-title">Canon EF</h6>
                                     </div>
-                                    <button type="button" class="btn btn-primary"><a href="#">Add Cart</a></button>
+                                    <a href="#" class="btn btn-primary">Add Cart</a>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 col-md-3">
@@ -470,7 +473,7 @@
                                         <span>Smartphone</span>
                                         <h6 class="card-title">LUNA</h6>
                                     </div>
-                                    <button type="button" class="btn btn-primary"><a href="#">Add Cart</a></button>
+                                    <a href="#" class="btn btn-primary">Add Cart</a>
                                 </div>
                             </div>
                         </div>
@@ -488,7 +491,7 @@
                                         <span>Smartphone</span>
                                         <h6 class="card-title">Huawei MediaPad</h6>
                                     </div>
-                                    <button type="button" class="btn btn-primary"><a href="#">Add Cart</a></button>
+                                    <a href="#" class="btn btn-primary">Add Cart</a>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 col-md-3">
@@ -500,7 +503,7 @@
                                         <span>Headphone</span>
                                         <h6 class="card-title">Sony MDRZX310W</h6>
                                     </div>
-                                    <button type="button" class="btn btn-primary"><a href="#">Add Cart</a></button>
+                                    <a href="#" class="btn btn-primary">Add Cart</a>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 col-md-3">
@@ -512,7 +515,7 @@
                                         <span>Smartphone</span>
                                         <h6 class="card-title">Samsung J330F</h6>
                                     </div>
-                                    <button type="button" class="btn btn-primary"><a href="#">Add Cart</a></button>
+                                    <a href="#" class="btn btn-primary">Add Cart</a>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 col-md-3">
@@ -524,7 +527,7 @@
                                         <span>Headphone</span>
                                         <h6 class="card-title">Beoplay</h6>
                                     </div>
-                                    <button type="button" class="btn btn-primary"><a href="#">Add Cart</a></button>
+                                    <a href="#" class="btn btn-primary">Add Cart</a>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 col-md-3">
@@ -536,7 +539,7 @@
                                         <span>Ipod</span>
                                         <h6 class="card-title">Transcend T.Sonic</h6>
                                     </div>
-                                    <button type="button" class="btn btn-primary"><a href="#">Add Cart</a></button>
+                                    <a href="#" class="btn btn-primary">Add Cart</a>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 col-md-3">
@@ -548,7 +551,7 @@
                                         <span>Mouse</span>
                                         <h6 class="card-title">Rapoo T8 White</h6>
                                     </div>
-                                    <button type="button" class="btn btn-primary"><a href="#">Add Cart</a></button>
+                                    <a href="#" class="btn btn-primary">Add Cart</a>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 col-md-3">
@@ -560,7 +563,7 @@
                                         <span>Camera</span>
                                         <h6 class="card-title">Canon EF</h6>
                                     </div>
-                                    <button type="button" class="btn btn-primary"><a href="#">Add Cart</a></button>
+                                    <a href="#" class="btn btn-primary">Add Cart</a>
                                 </div>
                             </div>
                             <div class="col-6 col-sm-4 col-md-3">
@@ -572,7 +575,7 @@
                                         <span>Smartphone</span>
                                         <h6 class="card-title">LUNA</h6>
                                     </div>
-                                    <button type="button" class="btn btn-primary"><a href="#">Add Cart</a></button>
+                                    <a href="#" class="btn btn-primary">Add Cart</a>
                                 </div>
                             </div>
                         </div>
@@ -647,7 +650,7 @@
                     <a href="#" class="slide-btn btn bg-info text-white">Explore</a>
                 </div>
                 <div class="slide-image col-12 col-md-6">
-                    <img src="https://omokhtar407.github.io/E-ecommerce/img/xbanner_2_product.png.pagespeed.ic.26wMfooIqr.webp"
+                    <img src="imgs/imgi_25_xbanner_2_product.png.pagespeed.ic.26wMfooIqr.webp"
                         alt="MacBook Air 13" />
                 </div>
             </div>
@@ -662,7 +665,7 @@
                     <a href="#" class="slide-btn btn bg-info text-white">Explore</a>
                 </div>
                 <div class="slide-image col-12 col-md-6">
-                    <img src="https://omokhtar407.github.io/E-ecommerce/img/xbanner_2_product.png.pagespeed.ic.26wMfooIqr.webp"
+                    <img src="imgs/imgi_25_xbanner_2_product.png.pagespeed.ic.26wMfooIqr.webp"
                         alt="MacBook Air 13" />
                 </div>
             </div>
@@ -677,7 +680,7 @@
                     <a href="#" class="slide-btn btn bg-info text-white">Explore</a>
                 </div>
                 <div class="slide-image col-12 col-md-6">
-                    <img src="https://omokhtar407.github.io/E-ecommerce/img/xbanner_2_product.png.pagespeed.ic.26wMfooIqr.webp"
+                    <img src="imgs/imgi_25_xbanner_2_product.png.pagespeed.ic.26wMfooIqr.webp"
                         alt="MacBook Air 13" />
                 </div>
             </div>
@@ -689,9 +692,9 @@
 
         <!-- ─── Dots ─── -->
         <div class="carousel-dots" id="carouselDots">
-            <button class="dot active" data-index="0"></button>
-            <button class="dot" data-index="1"></button>
-            <button class="dot" data-index="2"></button>
+            <button aria-label="Go to slide 1" class="dot active" data-index="0"></button>
+            <button aria-label="Go to slide 2" class="dot" data-index="1"></button>
+            <button aria-label="Go to slide 3" class="dot" data-index="2"></button>
         </div>
 
     </section>
@@ -722,7 +725,7 @@
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="product-card position-relative">
                         <span class="discount-badge">-25%</span>
-                        <i class="fa-solid fa-heart heart-icon"></i>
+                        <i class="fa-solid fa-heart heart-icon" aria-hidden="true"></i>
                         <div class="product-img">
                             <img src="imgs/imgi_27_xbest_1.png.pagespeed.ic.Xl5pJgNFuc.webp"
                                 alt="Xiaomi Redmi Note 4" />
@@ -731,11 +734,11 @@
                             <span class="product-category">Phone</span>
                             <a href="#" class="product-title">Xiaomi Redmi Note 4</a>
                             <div class="product-stars">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i>
                             </div>
                             <div class="product-price">
                                 <span class="price-new">$355</span>
@@ -749,7 +752,7 @@
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="product-card position-relative">
                         <span class="discount-badge">-25%</span>
-                        <i class="fa-solid fa-heart heart-icon"></i>
+                        <i class="fa-solid fa-heart heart-icon" aria-hidden="true"></i>
                         <div class="product-img">
                             <img src="imgs/imgi_27_xbest_1.png.pagespeed.ic.Xl5pJgNFuc.webp" alt="Beoplay H7" />
                         </div>
@@ -757,11 +760,11 @@
                             <span class="product-category">headphone</span>
                             <a href="#" class="product-title">Beoplay H7</a>
                             <div class="product-stars">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i>
                             </div>
                             <div class="product-price">
                                 <span class="price-new">$355</span>
@@ -775,7 +778,7 @@
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="product-card position-relative">
                         <span class="discount-badge">-25%</span>
-                        <i class="fa-solid fa-heart heart-icon"></i>
+                        <i class="fa-solid fa-heart heart-icon" aria-hidden="true"></i>
                         <div class="product-img">
                             <img src="imgs/imgi_27_xbest_1.png.pagespeed.ic.Xl5pJgNFuc.webp" alt="Nomi Black White" />
                         </div>
@@ -783,11 +786,11 @@
                             <span class="product-category">Headphone</span>
                             <a href="#" class="product-title">Nomi Black White</a>
                             <div class="product-stars">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i>
                             </div>
                             <div class="product-price">
                                 <span class="price-new">$355</span>
@@ -807,11 +810,11 @@
                             <span class="product-category">Headphone</span>
                             <a href="#" class="product-title">Samsung J730F...</a>
                             <div class="product-stars">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i>
                             </div>
                             <div class="product-price">
                                 <span class="price-new">$355</span>
@@ -831,11 +834,11 @@
                             <span class="product-category">Phone</span>
                             <a href="#" class="product-title">Samsung Charm Gold</a>
                             <div class="product-stars">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i>
                             </div>
                             <div class="product-price">
                                 <span class="price-new">$355</span>
@@ -849,7 +852,7 @@
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="product-card position-relative">
                         <span class="discount-badge">-25%</span>
-                        <i class="fa-solid fa-heart heart-icon"></i>
+                        <i class="fa-solid fa-heart heart-icon" aria-hidden="true"></i>
                         <div class="product-img">
                             <img src="imgs/imgi_27_xbest_1.png.pagespeed.ic.Xl5pJgNFuc.webp" alt="Huawei MediaPad T3" />
                         </div>
@@ -857,11 +860,11 @@
                             <span class="product-category">Phone</span>
                             <a href="#" class="product-title">Huawei MediaPad T3</a>
                             <div class="product-stars">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i>
                             </div>
                             <div class="product-price">
                                 <span class="price-new">$355</span>
@@ -936,13 +939,13 @@
             <div class="d-flex justify-content-between align-items-center mb-4">
                 <h2 class="section-title mb-0">Trends in 2021</h2>
                 <div class="d-flex gap-1">
-                    <button class="btn btn-sm btn-light border text-secondary" data-bs-target="#trendsCarousel"
+                    <button aria-label="Previous slide: trends" class="btn btn-sm btn-light border text-secondary" data-bs-target="#trendsCarousel"
                         data-bs-slide="prev">
-                        <i class="fa-solid fa-angle-left"></i>
+                        <i class="fa-solid fa-angle-left" aria-hidden="true"></i>
                     </button>
-                    <button class="btn btn-sm btn-light border text-secondary" data-bs-target="#trendsCarousel"
+                    <button aria-label="Next slide: trends" class="btn btn-sm btn-light border text-secondary" data-bs-target="#trendsCarousel"
                         data-bs-slide="next">
-                        <i class="fa-solid fa-angle-right"></i>
+                        <i class="fa-solid fa-angle-right" aria-hidden="true"></i>
                     </button>
                 </div>
             </div>
@@ -1160,13 +1163,13 @@
             <div class="d-flex justify-content-between align-items-center border-bottom pb-3 mb-4">
                 <h2 class="section-title mb-0">Latest Reviews</h2>
                 <div class="d-flex gap-1">
-                    <button class="btn btn-sm btn-light border text-secondary" data-bs-target="#reviewsCarousel"
+                    <button aria-label="Previous slide: reviews" class="btn btn-sm btn-light border text-secondary" data-bs-target="#reviewsCarousel"
                         data-bs-slide="prev">
-                        <i class="fa-solid fa-angle-left"></i>
+                        <i class="fa-solid fa-angle-left" aria-hidden="true"></i>
                     </button>
-                    <button class="btn btn-sm btn-light border text-secondary" data-bs-target="#reviewsCarousel"
+                    <button aria-label="Next slide: reviews" class="btn btn-sm btn-light border text-secondary" data-bs-target="#reviewsCarousel"
                         data-bs-slide="next">
-                        <i class="fa-solid fa-angle-right"></i>
+                        <i class="fa-solid fa-angle-right" aria-hidden="true"></i>
                     </button>
                 </div>
             </div>
@@ -1178,7 +1181,7 @@
                     <div class="carousel-item active">
                         <div class="row g-4 text-center">
                             <!-- Card: Sony PS4 Slim -->
-                            <div class="col-4">
+                            <div class="col-12 col-sm-6 col-md-4">
                                 <div class="d-flex align-items-center justify-content-center mb-3"
                                     style="height: 140px">
                                     <img src="imgs/imgi_27_xbest_1.png.pagespeed.ic.Xl5pJgNFuc.webp" alt="Sony PS4 Slim"
@@ -1186,11 +1189,11 @@
                                 </div>
                                 <a href="#" class="product-title d-block fw-bold mb-2">Sony PS4 Slim</a>
                                 <div class="product-stars d-flex justify-content-center align-items-center gap-1 mb-2">
-                                    <i class="fa-solid fa-star text-warning"></i>
-                                    <i class="fa-solid fa-star text-warning"></i>
-                                    <i class="fa-solid fa-star text-warning"></i>
-                                    <i class="fa-solid fa-star text-warning"></i>
-                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning" aria-hidden="true"></i>
+                                    <i class="fa-solid fa-star text-warning" aria-hidden="true"></i>
+                                    <i class="fa-solid fa-star text-warning" aria-hidden="true"></i>
+                                    <i class="fa-solid fa-star text-warning" aria-hidden="true"></i>
+                                    <i class="fa-solid fa-star text-warning" aria-hidden="true"></i>
                                     <span class="ms-2 text-muted small">2 days ago</span>
                                 </div>
                                 <p class="text-muted small mb-0">
@@ -1200,7 +1203,7 @@
                             </div>
 
                             <!-- Card: Speedlink -->
-                            <div class="col-4">
+                            <div class="col-12 col-sm-6 col-md-4">
                                 <div class="d-flex align-items-center justify-content-center mb-3"
                                     style="height: 140px">
                                     <img src="imgs/imgi_27_xbest_1.png.pagespeed.ic.Xl5pJgNFuc.webp" alt="Speedlink"
@@ -1208,11 +1211,11 @@
                                 </div>
                                 <a href="#" class="product-title d-block fw-bold mb-2">Speedlink</a>
                                 <div class="product-stars d-flex justify-content-center align-items-center gap-1 mb-2">
-                                    <i class="fa-solid fa-star text-warning"></i>
-                                    <i class="fa-solid fa-star text-warning"></i>
-                                    <i class="fa-solid fa-star text-warning"></i>
-                                    <i class="fa-solid fa-star text-warning"></i>
-                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning" aria-hidden="true"></i>
+                                    <i class="fa-solid fa-star text-warning" aria-hidden="true"></i>
+                                    <i class="fa-solid fa-star text-warning" aria-hidden="true"></i>
+                                    <i class="fa-solid fa-star text-warning" aria-hidden="true"></i>
+                                    <i class="fa-solid fa-star text-warning" aria-hidden="true"></i>
                                     <span class="ms-2 text-muted small">2 days ago</span>
                                 </div>
                                 <p class="text-muted small mb-0">
@@ -1222,7 +1225,7 @@
                             </div>
 
                             <!-- Card: Beoplay H4 -->
-                            <div class="col-4">
+                            <div class="col-12 col-sm-6 col-md-4">
                                 <div class="d-flex align-items-center justify-content-center mb-3"
                                     style="height: 140px">
                                     <img src="imgs/imgi_27_xbest_1.png.pagespeed.ic.Xl5pJgNFuc.webp" alt="Beoplay H4"
@@ -1230,11 +1233,11 @@
                                 </div>
                                 <a href="#" class="product-title d-block fw-bold mb-2">Beoplay H4</a>
                                 <div class="product-stars d-flex justify-content-center align-items-center gap-1 mb-2">
-                                    <i class="fa-solid fa-star text-warning"></i>
-                                    <i class="fa-solid fa-star text-warning"></i>
-                                    <i class="fa-solid fa-star text-warning"></i>
-                                    <i class="fa-solid fa-star text-warning"></i>
-                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning" aria-hidden="true"></i>
+                                    <i class="fa-solid fa-star text-warning" aria-hidden="true"></i>
+                                    <i class="fa-solid fa-star text-warning" aria-hidden="true"></i>
+                                    <i class="fa-solid fa-star text-warning" aria-hidden="true"></i>
+                                    <i class="fa-solid fa-star text-warning" aria-hidden="true"></i>
                                     <span class="ms-2 text-muted small">2 days ago</span>
                                 </div>
                                 <p class="text-muted small mb-0">
@@ -1250,7 +1253,7 @@
                     <div class="carousel-item">
                         <div class="row g-4 text-center">
                             <!-- Card: Huawei MediaPad -->
-                            <div class="col-4">
+                            <div class="col-12 col-sm-6 col-md-4">
                                 <div class="d-flex align-items-center justify-content-center mb-3"
                                     style="height: 140px">
                                     <img src="imgs/imgi_27_xbest_1.png.pagespeed.ic.Xl5pJgNFuc.webp"
@@ -1259,11 +1262,11 @@
                                 </div>
                                 <a href="#" class="product-title d-block fw-bold mb-2">Huawei MediaPad</a>
                                 <div class="product-stars d-flex justify-content-center align-items-center gap-1 mb-2">
-                                    <i class="fa-solid fa-star text-warning"></i>
-                                    <i class="fa-solid fa-star text-warning"></i>
-                                    <i class="fa-solid fa-star text-warning"></i>
-                                    <i class="fa-solid fa-star text-warning"></i>
-                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning" aria-hidden="true"></i>
+                                    <i class="fa-solid fa-star text-warning" aria-hidden="true"></i>
+                                    <i class="fa-solid fa-star text-warning" aria-hidden="true"></i>
+                                    <i class="fa-solid fa-star text-warning" aria-hidden="true"></i>
+                                    <i class="fa-solid fa-star text-warning" aria-hidden="true"></i>
                                     <span class="ms-2 text-muted small">2 days ago</span>
                                 </div>
                                 <p class="text-muted small mb-0">
@@ -1273,7 +1276,7 @@
                             </div>
 
                             <!-- Card: Samsung J730F -->
-                            <div class="col-4">
+                            <div class="col-12 col-sm-6 col-md-4">
                                 <div class="d-flex align-items-center justify-content-center mb-3"
                                     style="height: 140px">
                                     <img src="imgs/imgi_27_xbest_1.png.pagespeed.ic.Xl5pJgNFuc.webp" alt="Samsung J730F"
@@ -1281,11 +1284,11 @@
                                 </div>
                                 <a href="#" class="product-title d-block fw-bold mb-2">Samsung J730F</a>
                                 <div class="product-stars d-flex justify-content-center align-items-center gap-1 mb-2">
-                                    <i class="fa-solid fa-star text-warning"></i>
-                                    <i class="fa-solid fa-star text-warning"></i>
-                                    <i class="fa-solid fa-star text-warning"></i>
-                                    <i class="fa-solid fa-star text-warning"></i>
-                                    <i class="fa-solid fa-star-half-stroke text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning" aria-hidden="true"></i>
+                                    <i class="fa-solid fa-star text-warning" aria-hidden="true"></i>
+                                    <i class="fa-solid fa-star text-warning" aria-hidden="true"></i>
+                                    <i class="fa-solid fa-star text-warning" aria-hidden="true"></i>
+                                    <i class="fa-solid fa-star-half-stroke text-warning" aria-hidden="true"></i>
                                     <span class="ms-2 text-muted small">3 days ago</span>
                                 </div>
                                 <p class="text-muted small mb-0">
@@ -1295,7 +1298,7 @@
                             </div>
 
                             <!-- Card: Xiaomi Redmi -->
-                            <div class="col-4">
+                            <div class="col-12 col-sm-6 col-md-4">
                                 <div class="d-flex align-items-center justify-content-center mb-3"
                                     style="height: 140px">
                                     <img src="imgs/imgi_27_xbest_1.png.pagespeed.ic.Xl5pJgNFuc.webp"
@@ -1304,11 +1307,11 @@
                                 </div>
                                 <a href="#" class="product-title d-block fw-bold mb-2">Xiaomi Redmi Note 4</a>
                                 <div class="product-stars d-flex justify-content-center align-items-center gap-1 mb-2">
-                                    <i class="fa-solid fa-star text-warning"></i>
-                                    <i class="fa-solid fa-star text-warning"></i>
-                                    <i class="fa-solid fa-star text-warning"></i>
-                                    <i class="fa-solid fa-star text-warning"></i>
-                                    <i class="fa-solid fa-star-half-stroke text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning" aria-hidden="true"></i>
+                                    <i class="fa-solid fa-star text-warning" aria-hidden="true"></i>
+                                    <i class="fa-solid fa-star text-warning" aria-hidden="true"></i>
+                                    <i class="fa-solid fa-star text-warning" aria-hidden="true"></i>
+                                    <i class="fa-solid fa-star-half-stroke text-warning" aria-hidden="true"></i>
                                     <span class="ms-2 text-muted small">1 week ago</span>
                                 </div>
                                 <p class="text-muted small mb-0">
@@ -1331,13 +1334,13 @@
             <div class="d-flex justify-content-between align-items-center mb-4">
                 <h2 class="fw-bold mb-0">Recently Viewed</h2>
                 <div class="d-flex gap-1">
-                    <button class="btn btn-sm btn-light border text-secondary" data-bs-target="#recentlyViewedCarousel"
+                    <button aria-label="Previous slide: recently viewed products" class="btn btn-sm btn-light border text-secondary" data-bs-target="#recentlyViewedCarousel"
                         data-bs-slide="prev">
-                        <i class="fa-solid fa-angle-left"></i>
+                        <i class="fa-solid fa-angle-left" aria-hidden="true"></i>
                     </button>
-                    <button class="btn btn-sm btn-light border text-secondary" data-bs-target="#recentlyViewedCarousel"
+                    <button aria-label="Next slide: recently viewed products" class="btn btn-sm btn-light border text-secondary" data-bs-target="#recentlyViewedCarousel"
                         data-bs-slide="next">
-                        <i class="fa-solid fa-angle-right"></i>
+                        <i class="fa-solid fa-angle-right" aria-hidden="true"></i>
                     </button>
                 </div>
             </div>
@@ -1619,9 +1622,9 @@
             <div class="card border px-4 py-3 shadow-lg">
                 <div id="brandCarousel" class="carousel slide" data-bs-ride="false">
                     <div class="d-flex align-items-center justify-content-between">
-                        <button class="btn btn-link text-muted text-decoration-none px-2 fs-5"
+                        <button aria-label="Previous slide: brands" class="btn btn-link text-muted text-decoration-none px-2 fs-5"
                             data-bs-target="#brandCarousel" data-bs-slide="prev">
-                            <i class="fa-solid fa-angle-left"></i>
+                            <i class="fa-solid fa-angle-left" aria-hidden="true"></i>
                         </button>
 
                         <div class="carousel-inner flex-grow-1 px-4">
@@ -1685,9 +1688,9 @@
                             </div>
                         </div>
 
-                        <button class="btn btn-link text-muted text-decoration-none px-2 fs-5"
+                        <button aria-label="Next slide: brands" class="btn btn-link text-muted text-decoration-none px-2 fs-5"
                             data-bs-target="#brandCarousel" data-bs-slide="next">
-                            <i class="fa-solid fa-angle-right"></i>
+                            <i class="fa-solid fa-angle-right" aria-hidden="true"></i>
                         </button>
                     </div>
                 </div>
@@ -1699,16 +1702,16 @@
         <div class="container">
             <div class="d-flex flex-column flex-md-row align-items-center justify-content-between gap-3">
                 <div class="d-flex align-items-center gap-3">
-                    <i class="fa-regular fa-paper-plane fs-2 text-info"></i>
+                    <i class="fa-regular fa-paper-plane fs-2 text-info" aria-hidden="true"></i>
                     <div>
                         <h6 class="mb-0 fw-bold">Sign up for Newsletter</h6>
-                        <small class="text-muted">...and receive %20 coupon for first
+                        <small class="text-muted">...and receive 20% coupon for first
                             <a href="#" class="text-info text-decoration-none">shopping.</a></small>
                     </div>
                 </div>
                 <div class="d-flex w-100 w-md-auto" style="max-width: 520px">
                     <input type="email" class="form-control rounded-0 border-secondary"
-                        placeholder="Enter Your Email Adress" style="font-size: 0.9rem" />
+                        placeholder="Enter Your Email Address" style="font-size: 0.9rem" />
                     <button class="btn btn-info text-white rounded-0 px-4 fw-semibold" style="white-space: nowrap">
                         Subscribe
                     </button>
@@ -1730,27 +1733,27 @@
                     </p>
                     <a href="tel:+380680053570" class="d-block text-info fw-bold fs-5 text-decoration-none mb-1">+38 068
                         005 3570</a>
-                    <a href="mailto:omarmokhtar363@gmail.com" class="d-block text-info text-decoration-none mb-3"
-                        style="font-size: 0.9rem">omarmokhtar363@gmail.com</a>
+                    <a href="mailto:mohamedsamir008ms@gmail.com" class="d-block text-info text-decoration-none mb-3"
+                        style="font-size: 0.9rem">mohamedsamir008ms@gmail.com</a>
                     <p class="text-muted mb-3" style="font-size: 0.88rem">
-                        17 Princess Road, London Grester London NW18JR, UK
+                        17 Princess Road, London Greater London NW18JR, UK
                     </p>
                     <div class="d-flex gap-2">
                         <a href="#"
                             class="btn btn-info text-white rounded-circle d-flex align-items-center justify-content-center"
-                            style="width: 36px; height: 36px; padding: 0"><i class="fab fa-facebook-f"
+                            style="width: 36px; height: 36px; padding: 0"><i class="fab fa-facebook-f" aria-hidden="true"
                                 style="font-size: 0.8rem"></i></a>
                         <a href="#"
                             class="btn btn-info text-white rounded-circle d-flex align-items-center justify-content-center"
-                            style="width: 36px; height: 36px; padding: 0"><i class="fab fa-twitter"
+                            style="width: 36px; height: 36px; padding: 0"><i class="fab fa-twitter" aria-hidden="true"
                                 style="font-size: 0.8rem"></i></a>
                         <a href="#"
                             class="btn btn-info text-white rounded-circle d-flex align-items-center justify-content-center"
-                            style="width: 36px; height: 36px; padding: 0"><i class="fab fa-youtube"
+                            style="width: 36px; height: 36px; padding: 0"><i class="fab fa-youtube" aria-hidden="true"
                                 style="font-size: 0.8rem"></i></a>
                         <a href="#"
                             class="btn btn-info text-white rounded-circle d-flex align-items-center justify-content-center"
-                            style="width: 36px; height: 36px; padding: 0"><i class="fab fa-google"
+                            style="width: 36px; height: 36px; padding: 0"><i class="fab fa-google" aria-hidden="true"
                                 style="font-size: 0.8rem"></i></a>
                     </div>
                 </div>
@@ -1796,12 +1799,10 @@
             <div class="d-flex align-items-center gap-2">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/1280px-Mastercard-logo.svg.png"
                     alt="Mastercard" style="height: 22px" />
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/PayPal.svg/1200px-PayPal.svg.png"
+                <img src="/imgs/PayPal-Monogram-FullColor-RGB.png"
                     alt="PayPal" style="height: 22px" />
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/2560px-Visa_Inc._logo.svg.png"
+                <img src="/imgs/visa-com-brandmark.svg"
                     alt="Visa" style="height: 18px" />
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/1280px-Mastercard-logo.svg.png"
-                    alt="Mastercard" style="height: 22px" />
             </div>
         </div>
     </section>
